@@ -1,0 +1,76 @@
+{
+  "isQuestion": true,
+  "value": "Любитель дебажить код по 20 часов?",
+  "no": {
+    "isQuestion": true,
+    "value": "Разибрается в SQL больше всех",
+    "no": {
+      "isQuestion": true,
+      "value": "Умеет перебрать двигатель до винтика?",
+      "no": {
+        "isQuestion": true,
+        "value": "Ведет занятия?",
+        "no": {
+          "isQuestion": false,
+          "value": "Слесарь",
+          "no": null,
+          "yes": null
+        },
+        "yes": {
+          "isQuestion": false,
+          "value": "Преподователь",
+          "no": null,
+          "yes": null
+        }
+      },
+      "yes": {
+        "isQuestion": true,
+        "value": "Знает каким ключем отвернуть сместиель?",
+        "no": {
+          "isQuestion": false,
+          "value": "Механик",
+          "no": null,
+          "yes": null
+        },
+        "yes": {
+          "isQuestion": false,
+          "value": "Сантехник",
+          "no": null,
+          "yes": null
+        }
+      }
+    },
+    "yes": {
+      "isQuestion": false,
+      "value": "Разработчик баз данных",
+      "no": null,
+      "yes": null
+    }
+  },
+  "yes": {
+    "isQuestion": true,
+    "value": "Программирует на языке 1С?",
+    "no": {
+      "isQuestion": true,
+      "value": "Человек этой профессии тестирует код на дефекты?",
+      "no": {
+        "isQuestion": false,
+        "value": "Программист",
+        "no": null,
+        "yes": null
+      },
+      "yes": {
+        "isQuestion": false,
+        "value": "Тестировщик",
+        "no": null,
+        "yes": null
+      }
+    },
+    "yes": {
+      "isQuestion": false,
+      "value": "Программист 1С",
+      "no": null,
+      "yes": null
+    }
+  }
+}
